@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/ionicons@7.1.0/dist/ionicons.css" rel="stylesheet">
+  <link rel="shortcut icon" href="media/poster.png" type="image/x-icon">
+  <link rel="stylesheet" href="original.css" type="text/css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">facebook</div>
+    <div class="search">
+      <input type="text" placeholder="Search Facebook...">
+    </div>
+    <!-- === this space is for icons to be added later === -->
+     <div class="icons"></div>
+  </header>
+
+  <main>
+    <aside class="left">
+      <h2>Stories</h2>
+      <div class="stories">
+        <div class="story" id="story-item"><img src="https://i.pravatar.cc/150?img=1" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=2" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=3" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+        <div class="story"><img src="https://i.pravatar.cc/150?img=4" alt="user image"></div>
+      </div>
+    </aside>
+
+    <section class="feed" id="feed">
+      <div>
+        <input type="text" name="mind" id="mind" placeholder="What's on your mind?">
+      </div>
+      <!-- === first post === -->
+      <div class="post">
+        <div class="profile">
+          <img src="media/best.jpg" alt="best profile">
+        </div>
+        <strong>Kalita Ov Cali</strong>
+        <p>Just launched my new project 🚀</p>
+        <img src="media/best.jpg" alt="post" />
+      </div>
+      <!-- === second post === -->
+        <div class="post">
+        <strong>Nippy Jay</strong>
+        <p>Na here we dey oooo since 12:00 Am 😂🤣🤣</p>
+        <video src="media/sharp.mp4"
+        controls
+        autoplay
+        loop
+        preload="auto"
+        poster="poster.png"
+        height="100%"
+        width="100%"
+        ></video><br>
+      </div> 
+
+      <!-- === third post === -->
+      <div class="post">
+        <strong>Becky Etim</strong>
+        <p>Loving the new Facebook UI 😍</p>
+        <img src="media/arike.jpg" alt="Post">
+      </div> 
+
+      <!-- === fourth post === -->
+         <div class="post">
+        <strong>Bigstack Technologies</strong>
+        <p>The time is now 👩‍💻👨‍💻✔⚡</p> <br>
+        <p>no dulling you are not lazy so, bigstack can help you get there .</p>
+        <video src="media/bigstack.mp4"
+        controls
+        autoplay
+        loop
+        poster="media/poster.png"
+        height="100%"
+        width="100%"
+        ></video><br>
+      </div> 
+    </section>
+
+    <aside class="right">
+      <h3>People You May Know</h3>
+      <div class="friends" id="friendSuggestions"></div>
+    </aside>
+  </main>
+  <!-- <footer>
+    <p>&copy; 2025 Facebook Clone. All rights reserved. Made with ❤️ by Neltech Solutions</p>
+  </footer> -->
+<script src="script.js"></script>
+</body>
+</html>

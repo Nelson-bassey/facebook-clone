@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="media/poster.png" type="image/x-icon">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+            height: 100vh;
+            justify-self: center;
+            gap: 5rem;
+            justify-content: center;
+            align-content: left;
+            overflow: hidden;
+        }
+        form{
+            height: 100%;
+            justify-self: center;
+            align-content: center;
+        }
+        fieldset{
+            border: none;
+            width: 20em;
+            align-content: center;
+        }
+        h1{
+            color: blue;
+            margin-bottom: 1rem;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #777;
+        }
+        .connect{
+            font-size: large;
+        }
+        .forgotp{
+            margin-bottom: 1rem;
+            color: blue;
+            text-align: center;
+            cursor: pointer;
+        }
+        button{
+            width: 100%;
+            padding: 8px;
+            color: #fff;
+            background-color: blue;
+            border-radius: 6px;
+            border: 1px solid #777;
+            cursor: pointer;
+        }
+        .line{
+            height: 0.5px;
+            width: 100%;
+            border: 1px solid #777;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>facebook</h1>
+            <p class="connect">Conect with friends and the world around you on Facebook. </p>
+        </div>
+        <form action="clone2.html">
+            <fieldset>
+                <input type="email" name="email" id="email" placeholder="Email"> <br>
+                <input type="password" name="password" id="password" placeholder="Password"> <br>
+                <p class="forgotp">Forgot Password</p>
+                <button>Log In</button> <br>
+                <div class="line"></div>
+                <a href="#"><button>Create new account</button></a>
+            </fieldset>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
