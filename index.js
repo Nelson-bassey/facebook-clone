@@ -1,31 +1,4 @@
-// fetch("https://randomuser.me/api/")
-//   .then(res => res.json())
-//   .then(data => {
-//     const main = document.querySelector("main");
-//     data.products.forEach(product => {
-//       main.innerHTML += `
-//         <div class="post">
-//           <strong>${product.title}</strong>
-//           <p>${product.description}</p>
-//           <img src="${product.thumbnail}" />
-//         </div>
-//       `;
-//     });
-//   });
-
-// fetch("https://randomuser.me/api/")
-//   .then(res => res.json())
-//   .then|(data => {
-//     const main = document.querySelector("main");
-//     data.products.forEach(product => {
-//       main.innerHTML += `
-//       <div class="post">
-//       <strong>`
-//     })
-//   })
-
-  // === form validation begins here ===  
-
+// File: signup.js
    const form = document.getElementById('signupForm');
 
     form.addEventListener('SignUp', function (e) {
